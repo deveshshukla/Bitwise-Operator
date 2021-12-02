@@ -1,0 +1,51 @@
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("Inter X value: ");
+		int x = sc.nextInt();
+		
+		System.out.print("Inter Y value: ");
+		int y = sc.nextInt();
+		
+		System.out.print("Inter shift value: ");
+		int shift = sc.nextInt();
+		
+		/*Bitwise operator's*/
+		
+		//Not operator
+		int not = ~x;
+		System.out.println("~x: "+not);
+		
+		//& operator
+		int and = x&y;
+		System.out.println("X&Y: "+and);
+		
+		//or operator
+		int or = x|y;
+		System.out.println("X|Y: "+or);
+		
+		//xor operator
+		int xor = x^y;
+		System.out.println("X^Y: "+xor);
+				
+		//Left-Shift operator
+		int leftShift = x<<shift;
+		System.out.println("Left-Shift: "+leftShift);
+		
+		//Right-Shift operator
+		int rightShift = x>>shift;
+		System.out.println("Right-Shift: "+rightShift);
+		
+		//Zero fill Right-Shift operator
+		int zeroRightShift = x>>>shift;
+		System.out.print("Zero Right-Shift: "+zeroRightShift);
+		
+	}
+
+}
