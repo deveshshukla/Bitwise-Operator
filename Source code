@@ -7,13 +7,13 @@ public class Test {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Inter X value: ");
+		System.out.print("Enter X value: ");
 		int x = sc.nextInt();
 		
-		System.out.print("Inter Y value: ");
+		System.out.print("Enter Y value: ");
 		int y = sc.nextInt();
 		
-		System.out.print("Inter shift value: ");
+		System.out.print("Enter shift value: ");
 		int shift = sc.nextInt();
 		
 		/*Bitwise operator's*/
